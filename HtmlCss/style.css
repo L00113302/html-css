@@ -1,0 +1,123 @@
+/* use html color picker for color codes
+   google fonts copy and paste link of the font to html
+   text-indent: 1cm; indent text
+   text-align: center; center text
+   text-shadow: 1px 1px 4px red; put a shadow, right 1, down 1, size 4
+   text-transform: lowercase/uppercase;
+   text-decoration: underline/strikethrough;
+   border-radius: 4px; rounds the edges around the image
+   box-shadow: 1px 1px 4px; shadow around image
+   width: 100px, height: 100px; set size of image 
+   padding: 20px; increases space inside an element
+   margin-left/top/bottom: 20px; moves element over from margin or element above/below it
+   border-style/color: dotted, red; dotted border OR red border
+   border style: outset; border-width: 20px; border-radius..
+   position: fixed; will keep the element in the same part of the page when scrolling down
+   display: inline-block; places items next to each other
+   transform: rotate(8deg);
+
+/* . for class, # for id, * for all elements */
+* {
+    
+margin-left: 20px;
+/*background-image: url('lyitc.jpg');*/
+background-repeat: no-repeat;
+    
+}
+
+.test{
+    
+color: red;
+font-size: 20px;   
+font-weight: bold;
+background: linear-gradient(green, blue);
+}
+
+#test1{
+background: linear-gradient(to bottom left, orange, yellow);
+background-color: orange;
+border-radius: 5px;
+    
+}
+
+/* Select all paragraph elements */
+
+p {
+    
+color: aqua;
+    
+}
+
+.test ul {
+color: red;
+}
+
+p[type = "text"]{
+    
+color:blue;
+    
+}
+
+
+
+p:hover {
+    
+color: yellow;
+background-color:pink;
+
+    
+}
+
+/* modify link */
+a:hover {
+
+color:red;
+
+}
+
+a:visited {
+
+color:orange;
+
+}
+
+table, th, td, tr {
+
+padding:20px;
+border: 2px solid black;
+
+}
+
+th {
+    
+background-color: #FF5733  ;
+border-collapse: collapse;
+}
+
+td,th {
+    
+width: 20px;
+height: 20px;
+
+}
+
+tr:hover{
+    
+color:green;
+}
+
+/* animations */
+
+@keyframes animate{
+    from {background-color:white; margin-left:0px;}
+    to {background-color: dark; margin-left:50px;}
+}
+
+* {
+    background-color: white;
+    animation-name: animate;
+    animation-duration: 10s;
+}
+
+
+
